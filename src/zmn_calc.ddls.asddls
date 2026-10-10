@@ -12,7 +12,8 @@ define custom entity zmn_calc
   integer1 : abap.int4;
   @UI.lineItem: [{ position: 30 }]
   @UI.selectionField: [{ position: 20 }]
-  operator : abap.char( 1 );
+  @Consumption.valueHelpDefinition: [{ entity: {name: 'ZMN_OPS_VH', element: 'Value' }}]
+  operator : zmn_ops;
   @UI.lineItem: [{ position: 40 }]
   @UI.selectionField: [{ position: 30 }]
   
