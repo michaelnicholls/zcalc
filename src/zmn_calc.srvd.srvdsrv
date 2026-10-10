@@ -1,0 +1,4 @@
+@EndUserText.label: 'calculator'
+define service Zmn_calc {
+  expose zmn_calc;
+}
