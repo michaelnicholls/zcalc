@@ -1,2 +1,2 @@
 # zcalc
-Simple CDS calculator
+Simple CDS calculator using CDS custom entity
