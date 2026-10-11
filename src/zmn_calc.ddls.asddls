@@ -25,5 +25,7 @@ define custom entity zmn_calc
   @UI.lineItem: [{ position: 50 }]
   @EndUserText.label: 'Result'
   text : abap.char( 100 );
+  @UI.hidden: true
+  text_packed : abap.dec( 10, 2 );
   
 }
