@@ -1,0 +1,4 @@
+@EndUserText.label: 'clac with params'
+define service ZMN_CALC_PARAMS {
+  expose ZMN_CALC_PARAMS;
+}
