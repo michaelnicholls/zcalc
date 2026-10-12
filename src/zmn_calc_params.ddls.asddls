@@ -11,7 +11,6 @@ define custom entity ZMN_CALC_PARAMS
     p_integer2 : zmn_integer
 
 {
-      //@UI.lineItem: [{ position: 10 }]
 
   key line        : abap.int4;
       @UI.lineItem: [{ position: 45 }]

@@ -35,9 +35,7 @@ CLASS zcl_mncalc IMPLEMENTATION.
             DATA(int2) = CONV i(  lt_params[ parameter_name = 'P_INTEGER2' ]-value ).
             DATA(op) = lt_params[  parameter_name = 'P_OPERATOR' ]-value.
             lcl_calc=>calc( exporting int1 = int1 int2 = int2 op = op changing lt_data = lt_data ).
- "           DATA(formula) = |{ int1 } { op } { int2   }|.
-  "          lt_data = VALUE #( BASE lt_data ( formula = formula integer1 = int1 integer2 = int2 line = linecounter operator = op ) ).
-          ELSE.
+           ELSE.
             DATA(lt_filter_ranges) = lo_filter->get_as_ranges(  ).
             READ TABLE lt_filter_ranges WITH KEY name = 'INTEGER1' ASSIGNING FIELD-SYMBOL(<lv_int1>).
             READ TABLE lt_filter_ranges WITH KEY name = 'INTEGER2' ASSIGNING FIELD-SYMBOL(<lv_int2>).
