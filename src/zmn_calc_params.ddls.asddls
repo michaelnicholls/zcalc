@@ -5,6 +5,7 @@ define custom entity ZMN_CALC_PARAMS
     @EndUserText.label: 'Integer1'
     p_integer1 : zmn_integer,
     @Consumption.valueHelpDefinition: [{ entity: {name: 'ZMN_OPS_VH', element: 'Value' }}]
+  // BTP ---   @Consumption.valueHelpDefinition: [{ entity: {name: 'ZMN_OPS_VH_BTP', element: 'value_low' }}]
 
     p_operator   : zmn_ops,
     @EndUserText.label: 'Integer2'
