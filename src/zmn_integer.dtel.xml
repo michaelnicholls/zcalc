@@ -13,6 +13,7 @@
     <DDTEXT>integer based on decimal</DDTEXT>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
   </asx:values>
  </asx:abap>
